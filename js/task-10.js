@@ -31,5 +31,5 @@ function getRandomHexColor() {
 
 function destroyBoxes() {
   input.value = "";
-  boxes.remove([...newElements]);
+  boxes.remove(...newElements);
 }
